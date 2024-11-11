@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Recetas</title>
+    <link rel="stylesheet" href="listado.css">
+</head>
+<body>
+    <header>
+        <h1>Listado de Recetas</h1>
+        <a href="index.html">Volver a la página principal</a>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Tiempo</th>
+                    <th>Dificultad</th>
+                    <th>Ver Receta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Ejemplo de fila -->
+                <tr>
+                    <td>Risotto de Calabaza</td>
+                    <td>30 minutos</td>
+                    <td>Fácil</td>
+                    <td><a href="recepta.html">Ver</a></td>
+                </tr>
+                <!-- Repite esta estructura para 15 recetas -->
+            </tbody>
+        </table>
+        <div class="pagination">
+            <button disabled>Anterior</button>
+            <button>Siguiente</button>
+        </div>
+    </main>
+</body>
+</html>
