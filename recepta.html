@@ -3,45 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receta Detallada</title>
-    <link rel="stylesheet" href="recepta.css">
+    <title>Listado de Recetas</title>
+    <link rel="stylesheet" href="listado.css">
 </head>
 <body>
     <header>
-        <h1>Risotto de Calabaza y Cúrcuma</h1>
+        <h1>Listado de Recetas</h1>
         <a href="index.html">Volver a la página principal</a>
     </header>
     <main>
-        <section class="info">
-            <h2>Información</h2>
-            <p><strong>Tiempo:</strong> 30 minutos</p>
-            <p><strong>Dificultad:</strong> Fácil</p>
+        <section class="intro">
+            <h2>Recetas de pastas</h2>
+            <p>La pasta es uno de los pilares básicos en la alimentación de un deportista. Gracias a su alto valor nutricional, aporta muchos carbohidratos de bajo índice glucémico. Aquí encontrarás recetas deliciosas y fáciles de preparar.</p>
         </section>
-        <section class="ingredients">
-            <h2>Ingredientes</h2>
-            <ul>
-                <li>1 taza de arroz para risotto</li>
-                <li>500g de calabaza</li>
-                <li>1 cebolla</li>
-                <li>1 diente de ajo</li>
-                <li>1 litro de caldo de verduras</li>
-                <li>1 cucharadita de cúrcuma</li>
-                <li>Sal y pimienta al gusto</li>
-            </ul>
-        </section>
-        <section class="steps">
-            <h2>Pasos</h2>
-            <ol>
-                <li>Corta la calabaza en cubos y sofríela hasta que esté tierna.</li>
-                <li>Sofríe la cebolla y el ajo en una olla grande.</li>
-                <li>Añade el arroz y remueve por 2 minutos.</li>
-                <li>Incorpora la calabaza y la cúrcuma al arroz.</li>
-                <li>Vierte el caldo poco a poco, removiendo hasta que el arroz esté cocido.</li>
-            </ol>
-        </section>
-        <section class="media">
-            <h2>Fotos</h2>
-            <img src="images/risotto.jpg" alt="Risotto de calabaza">
+        <section class="recipes-list">
+            <!-- Repetir este bloque para cada receta -->
+            <article class="recipe">
+                <h3><a href="recepta.html">Arroz negro</a></h3>
+                <p>Receta de arroz negro</p>
+                <p><strong>Dificultad:</strong> Baja &nbsp; | &nbsp; <strong>Cocina:</strong> Tradicional &nbsp; | &nbsp; <strong>Vegetariana:</strong> Sí &nbsp; | &nbsp; <strong>Celíacos:</strong> No</p>
+                <p><strong>Autor:</strong> IVANRUGARCIA</p>
+                <div class="actions">
+                    <span class="favorite">⭐</span>
+                    <a href="#">PDF</a>
+                </div>
+            </article>
+            <!-- Añadir más recetas -->
         </section>
     </main>
 </body>
