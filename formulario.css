@@ -1,3 +1,54 @@
+/* General */
+:root {
+    --verd: #7ABA96;
+    --beix: #8A8070;
+    --negre: #000000;
+    --gris: #808080;
+    --blanc: #FFFFFF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--blanc);
+    color: var(--negre);
+}
+
+/* Cabecera */
+header {
+    text-align: center;
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+header .logo img {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--negre);
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: var(--verd);
+}
+
 /* Estilos para el formulario de registro */
 .registration-form {
     width: 100%;
@@ -26,22 +77,4 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid var(--gris);
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.registration-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: var(--verd);
-    color: var(--blanc);
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.registration-form button:hover {
-    background-color: var(--beix);
-}
+    border: 1px solid var
