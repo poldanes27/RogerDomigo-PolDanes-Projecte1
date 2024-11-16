@@ -1,115 +1,151 @@
-<section class="recipe-list">
-    <h1>Llistat de receptes</h1>
-    <div class="grid">
-        <!-- Recepta 1 -->
-        <article>
-            <h2>Risotto de carbassa i cúrcuma</h2>
-            <p>Temps: 40 minuts</p>
-            <p>Dificultat: Fàcil</p>
-            <a href="recepta-risotto-carbassa.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 2 -->
-        <article>
-            <h2>Espaguetis amb albergínia</h2>
-            <p>Temps: 30 minuts</p>
-            <p>Dificultat: Fàcil</p>
-            <a href="recepta-espaguetis-alberginia.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 3 -->
-        <article>
-            <h2>Paella mixta</h2>
-            <p>Temps: 60 minuts</p>
-            <p>Dificultat: Intermedi</p>
-            <a href="recepta-paella-mixta.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 4 -->
-        <article>
-            <h2>Crema de carabassa i coco</h2>
-            <p>Temps: 35 minuts</p>
-            <p>Dificultat: Fàcil</p>
-            <a href="recepta-crema-carabassa.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 5 -->
-        <article>
-            <h2>Lasanya de verdures</h2>
-            <p>Temps: 50 minuts</p>
-            <p>Dificultat: Intermedi</p>
-            <a href="recepta-lasanya-verdures.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 6 -->
-        <article>
-            <h2>Sopa miso amb tofu</h2>
-            <p>Temps: 20 minuts</p>
-            <p>Dificultat: Fàcil</p>
-            <a href="recepta-sopa-miso.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 7 -->
-        <article>
-            <h2>Hummus clàssic</h2>
-            <p>Temps: 10 minuts</p>
-            <p>Dificultat: Molt fàcil</p>
-            <a href="recepta-hummus.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 8 -->
-        <article>
-            <h2>Pastís de formatge vegà</h2>
-            <p>Temps: 60 minuts</p>
-            <p>Dificultat: Intermedi</p>
-            <a href="recepta-pastis-formatge.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 9 -->
-        <article>
-            <h2>Curry de llenties vermelles</h2>
-            <p>Temps: 40 minuts</p>
-            <p>Dificultat: Fàcil</p>
-            <a href="recepta-curry-llenties.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 10 -->
-        <article>
-            <h2>Pizza Margarita casolana</h2>
-            <p>Temps: 45 minuts</p>
-            <p>Dificultat: Intermedi</p>
-            <a href="recepta-pizza-margarita.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 11 -->
-        <article>
-            <h2>Ensalada de quinoa i magrana</h2>
-            <p>Temps: 20 minuts</p>
-            <p>Dificultat: Fàcil</p>
-            <a href="recepta-ensalada-quinoa.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 12 -->
-        <article>
-            <h2>Calçots amb salsa romesco</h2>
-            <p>Temps: 30 minuts</p>
-            <p>Dificultat: Fàcil</p>
-            <a href="recepta-calcots.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 13 -->
-        <article>
-            <h2>Berenjenes farcides</h2>
-            <p>Temps: 40 minuts</p>
-            <p>Dificultat: Fàcil</p>
-            <a href="recepta-berenjenes.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 14 -->
-        <article>
-            <h2>Gazpacho andalús</h2>
-            <p>Temps: 15 minuts</p>
-            <p>Dificultat: Molt fàcil</p>
-            <a href="recepta-gazpacho.html">Veure recepta</a>
-        </article>
-        <!-- Recepta 15 -->
-        <article>
-            <h2>Tiramisú vegà</h2>
-            <p>Temps: 50 minuts</p>
-            <p>Dificultat: Intermedi</p>
-            <a href="recepta-tiramisu.html">Veure recepta</a>
-        </article>
-    </div>
-    <div class="pagination">
-        <button>prev</button>
-        <span>1</span>
-        <button>next</button>
-    </div>
-</section>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llistat de Receptes - Delicias Kitchen</title>
+    <link rel="stylesheet" href="listado.css">
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <div class="logo">
+            <img src="images/Logo-Delicias.png" alt="Delicias Kitchen Logo" style="width: 150px; height: auto;">
+        </div>
+        <br>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="sobre.html">Sobre mí</a></li>
+                <li><a href="recepta.html">Receptes</a></li>
+                <li><a href="formulario.html">Contacte</a></li>
+                <li><a href="listado.html">Altres coses</a></li>
+            </ul>
+        </nav>
+        <br>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <h1>Llistat de Receptes</h1>
+        <section class="recipe-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Títol</th>
+                        <th>Temps</th>
+                        <th>Dificultat</th>
+                        <th>Enllaç</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="recepta1.html">Risotto de carbassa</a></td>
+                        <td>45 minuts</td>
+                        <td>Fàcil</td>
+                        <td><a href="recepta1.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta2.html">Lasanya vegana</a></td>
+                        <td>1 hora</td>
+                        <td>Intermedi</td>
+                        <td><a href="recepta2.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta3.html">Brownie de moniato</a></td>
+                        <td>50 minuts</td>
+                        <td>Fàcil</td>
+                        <td><a href="recepta3.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta4.html">Pa de plàtan</a></td>
+                        <td>1 hora</td>
+                        <td>Fàcil</td>
+                        <td><a href="recepta4.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta5.html">Crema de carabassó</a></td>
+                        <td>30 minuts</td>
+                        <td>Fàcil</td>
+                        <td><a href="recepta5.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta6.html">Espaguetis carbonara vegans</a></td>
+                        <td>40 minuts</td>
+                        <td>Intermedi</td>
+                        <td><a href="recepta6.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta7.html">Pizza casolana</a></td>
+                        <td>1 hora</td>
+                        <td>Intermedi</td>
+                        <td><a href="recepta7.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta8.html">Sopa miso</a></td>
+                        <td>20 minuts</td>
+                        <td>Fàcil</td>
+                        <td><a href="recepta8.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta9.html">Pastís de formatge</a></td>
+                        <td>1 hora i 30 minuts</td>
+                        <td>Difícil</td>
+                        <td><a href="recepta9.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta10.html">Fajitas mexicanes</a></td>
+                        <td>30 minuts</td>
+                        <td>Fàcil</td>
+                        <td><a href="recepta10.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta11.html">Hummus de remolatxa</a></td>
+                        <td>15 minuts</td>
+                        <td>Fàcil</td>
+                        <td><a href="recepta11.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta12.html">Hamburguesa vegana</a></td>
+                        <td>45 minuts</td>
+                        <td>Intermedi</td>
+                        <td><a href="recepta12.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta13.html">Truita de patates</a></td>
+                        <td>40 minuts</td>
+                        <td>Fàcil</td>
+                        <td><a href="recepta13.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta14.html">Macarrons amb tomàquet</a></td>
+                        <td>25 minuts</td>
+                        <td>Fàcil</td>
+                        <td><a href="recepta14.html">Veure recepta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="recepta15.html">Paella de marisc</a></td>
+                        <td>1 hora i 20 minuts</td>
+                        <td>Difícil</td>
+                        <td><a href="recepta15.html">Veure recepta</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Paginació -->
+        <section class="pagination">
+            <button class="prev">Prev</button>
+            <span class="page active">1</span>
+            <span class="page">2</span>
+            <span class="page">3</span>
+            <button class="next">Next</button>
+        </section>
+    </main>
+
+    <!-- Peu de pàgina -->
+    <footer>
+        <p>FACEBOOK | TWITTER | INSTAGRAM | PINTEREST | EMAIL | RSS</p>
+    </footer>
+</body>
+</html>
