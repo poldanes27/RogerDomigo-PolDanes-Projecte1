@@ -1,0 +1,178 @@
+/* General */
+:root {
+    --verd: #7ABA96;
+    --beix: #8A8070;
+    --negre: #000000;
+    --gris: #808080;
+    --blanc: #FFFFFF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--blanc);
+    color: var(--negre);
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+header .logo img {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--negre);
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: var(--verd);
+}
+
+/* Layout principal */
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 25%;
+    padding: 20px;
+}
+
+.about-me-sidebar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.about-me-sidebar h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about-me-sidebar p {
+    text-align: center;
+    color: var(--gris);
+    font-size: 14px;
+}
+
+/* Suscripción */
+.subscribe-sidebar {
+    text-align: center;
+}
+
+.subscribe-content img {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.subscribe-content p {
+    font-size: 14px;
+    color: var(--gris);
+    margin-bottom: 15px;
+}
+
+.subscribe-content button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--verd);
+    color: var(--blanc);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-content button:hover {
+    background-color: var(--beix);
+}
+
+/* Recetas */
+.recipes {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.recipes article {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--blanc); /* Fondo blanco */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.recipes article img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.recipes article h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.recipes article h3 a {
+    text-decoration: none;
+    color: var(--negre);
+    transition: color 0.3s;
+}
+
+.recipes article h3 a:hover {
+    color: var(--verd);
+}
+
+.recipes article .date {
+    font-size: 14px;
+    color: var(--gris);
+    margin-bottom: 5px;
+}
+
+.recipes article .separator {
+    width: 80%;
+    height: 2px;
+    margin: 10px auto;
+    background-color: var(--verd);
+}
+
+.recipes article p {
+    font-size: 14px;
+    color: var(--gris);
+    margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--negre);
+    color: var(--blanc);
+}

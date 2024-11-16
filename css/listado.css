@@ -1,0 +1,115 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid #808080;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+header .logo img {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #7ABA96;
+}
+
+/* Llistat */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.recipe-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.recipe-list table th,
+.recipe-list table td {
+    border: 1px solid #808080;
+    padding: 10px;
+    text-align: center;
+}
+
+.recipe-list table th {
+    background-color: #7ABA96;
+    color: #FFFFFF;
+}
+
+.recipe-list table td a {
+    color: #7ABA96;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.recipe-list table td a:hover {
+    text-decoration: underline;
+}
+
+/* Paginació */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination .prev,
+.pagination .next,
+.pagination .page {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #808080;
+    background-color: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination .page.active {
+    background-color: #7ABA96;
+    color: #FFFFFF;
+}
+
+.pagination .prev:hover,
+.pagination .next:hover,
+.pagination .page:hover:not(.active) {
+    background-color: #8A8070;
+    color: #FFFFFF;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
