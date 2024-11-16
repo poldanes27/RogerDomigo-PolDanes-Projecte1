@@ -3,59 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro - Delicias Kitchen</title>
-    <link rel="stylesheet" href="formulario.css">
+    <title>Contacte</title>
+    <link rel="stylesheet" href="contacto.css">
 </head>
 <body>
-    <!-- Cabecera -->
     <header>
         <div class="logo">
-            <img src="images/Logo-Delicias.png" alt="Delicias Kitchen Logo" style="width: 150px; height: auto;">
+            <img src="images/Logo-Delicias.png" alt="Delicias Kitchen Logo">
         </div>
-        <br>
         <nav class="menu">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Sobre mí</a></li>
-                <li><a href="recepta.html">Recetas</a></li>
-                <li><a href="formulario.html">Contacto</a></li>
-                <li><a href="listado.html">Otras cosas</a></li>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="listado.html">Receptes</a></li>
+                <li><a href="sobre_mi.html">Sobre nosaltres</a></li>
             </ul>
         </nav>
-        <br>
     </header>
 
-    <!-- Contenido principal -->
     <main>
-        <section class="registration-form">
-            <h2>Formulario de Registro</h2>
-            <form action="#" method="get">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
+        <h1>Contacte</h1>
+        <p>Si tens cap dubte, consulta o suggeriment, no dubtis a omplir el formulari següent:</p>
+        <form action="/submit" method="GET">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required><br><br>
 
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
+            <label for="email">Correu electrònic:</label>
+            <input type="email" id="email" name="email" required><br><br>
 
-                <label for="comentario">Comentario:</label>
-                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+            <label for="tema">Tema:</label>
+            <select id="tema" name="tema">
+                <option value="consultes">Consultes</option>
+                <option value="suggeriments">Suggeriments</option>
+                <option value="altres">Altres</option>
+            </select><br><br>
 
-                <label for="categoria">Selecciona una categoría:</label>
-                <select id="categoria" name="categoria" required>
-                    <option value="">--Selecciona--</option>
-                    <option value="vegetariana">Vegetariana</option>
-                    <option value="vegana">Vegana</option>
-                    <option value="postre">Postre</option>
-                    <option value="snack">Snack</option>
-                </select>
+            <label for="missatge">Missatge:</label><br>
+            <textarea id="missatge" name="missatge" rows="5" required></textarea><br><br>
 
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+            <button type="submit">Enviar</button>
+        </form>
     </main>
 
-    <!-- Pie de página -->
     <footer>
-        <p>FACEBOOK| TWITTER | INSTAGRAM | PINTEREST | EMAIL | RSS</p>
+        <p>FACEBOOK | TWITTER | INSTAGRAM | PINTEREST | EMAIL | RSS</p>
     </footer>
 </body>
 </html>
