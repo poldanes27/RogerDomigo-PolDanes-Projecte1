@@ -3,34 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="formulario.css">
+    <title>Formulari</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Formulario de Alta</h1>
-        <a href="index.html">Volver a la página principal</a>
+        <!-- Incloure aquí el menú -->
     </header>
+
     <main>
-        <form action="#" method="get">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="receta">Receta:</label>
-            <textarea id="receta" name="receta" rows="5" required></textarea>
-
-            <label for="difficulty">Dificultad:</label>
-            <select id="difficulty" name="difficulty">
-                <option value="facil">Fácil</option>
-                <option value="media">Media</option>
-                <option value="dificil">Difícil</option>
-            </select>
-
-            <button type="submit">Enviar</button>
-        </form>
+        <section class="form-section">
+            <h1>Alta / Nou comentari</h1>
+            <form action="resultats.html" method="GET">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correu electrònic:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="category">Selecciona una categoria:</label>
+                <select id="category" name="category">
+                    <option value="recepta">Nova recepta</option>
+                    <option value="comentari">Comentari</option>
+                </select>
+                <label for="message">Missatge:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
+
+    <footer>
+        <!-- Peu de pàgina -->
+    </footer>
 </body>
 </html>
