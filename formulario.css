@@ -1,4 +1,3 @@
-/* General */
 :root {
     --verd: #7ABA96;
     --beix: #8A8070;
@@ -15,7 +14,6 @@ body {
     color: var(--negre);
 }
 
-/* Cabecera */
 header {
     text-align: center;
     border-bottom: 1px solid var(--gris);
@@ -49,32 +47,49 @@ header .logo img {
     color: var(--verd);
 }
 
-/* Estilos para el formulario de registro */
-.registration-form {
-    width: 100%;
-    max-width: 600px;
+main {
+    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: var(--blanc);
-    border-radius: 5px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.registration-form h2 {
     text-align: center;
-    margin-bottom: 20px;
 }
 
-.registration-form label {
+form {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-.registration-form input, 
-.registration-form textarea, 
-.registration-form select {
+form input, form select, form textarea, form button {
     width: 100%;
-    padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid var
+    padding: 10px;
+    border: 1px solid var(--gris);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    background-color: var(--verd);
+    color: var(--blanc);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: var(--beix);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--negre);
+    color: var(--blanc);
+}
