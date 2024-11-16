@@ -3,36 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulari</title>
+    <title>Contacto - Delicias Kitchen</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Cabecera -->
     <header>
-        <!-- Incloure aquí el menú -->
+        <div class="logo">
+            <img src="images/Logo-Delicias.png" alt="Delicias Kitchen Logo" style="width: 150px; height: auto;">
+        </div>
+        <br>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre mí</a></li>
+                <li><a href="recepta.html">Recetas</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+                <li><a href="listado.html">Otras cosas</a></li>
+            </ul>
+        </nav>
+        <br>
     </header>
 
+    <!-- Contenido principal -->
     <main>
-        <section class="form-section">
-            <h1>Alta / Nou comentari</h1>
-            <form action="resultats.html" method="GET">
-                <label for="name">Nom:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Correu electrònic:</label>
+        <section class="contact-form">
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
                 <input type="email" id="email" name="email" required>
-                <label for="category">Selecciona una categoria:</label>
-                <select id="category" name="category">
-                    <option value="recepta">Nova recepta</option>
-                    <option value="comentari">Comentari</option>
-                </select>
-                <label for="message">Missatge:</label>
-                <textarea id="message" name="message" rows="5"></textarea>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
                 <button type="submit">Enviar</button>
             </form>
         </section>
     </main>
 
+    <!-- Pie de página -->
     <footer>
-        <!-- Peu de pàgina -->
+        <p>FACEBOOK| TWITTER | INSTAGRAM | PINTEREST | EMAIL | RSS</p>
     </footer>
 </body>
 </html>
