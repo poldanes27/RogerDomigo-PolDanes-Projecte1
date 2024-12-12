@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <receta>
+        <titulo>Risotto de carbassa</titulo>
+        <imagen>imatges/risotto_carbassa.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Carbassa</ingrediente>
+            <ingrediente>Arròs</ingrediente>
+            <ingrediente>Formatge parmesà</ingrediente>
+            <ingrediente>Ceba</ingrediente>
+            <ingrediente>All</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="15 minuts" coccion="30 minuts" />
+        <pasos>
+            <paso>Talla la carbassa a daus.</paso>
+            <paso>Sofregeix la ceba i l'all en oli d'oliva.</paso>
+            <paso>Afegeix l'arròs i la carbassa, i cuina amb brou.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Espaguetis carbonara vegans</titulo>
+        <imagen>imatges/espaguetis_carbonara.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Espaguetis</ingrediente>
+            <ingrediente>Crema de coco</ingrediente>
+            <ingrediente>Tofu fumat</ingrediente>
+            <ingrediente>Pebre negre</ingrediente>
+            <ingrediente>All</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="10 minuts" coccion="30 minuts" />
+        <pasos>
+            <paso>Bull els espaguetis fins al dente.</paso>
+            <paso>Salteja el tofu i l'all.</paso>
+            <paso>Barreja amb la crema de coco i pebre negre.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Pizza casolana</titulo>
+        <imagen>imatges/pizza_casolana.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Massa de pizza</ingrediente>
+            <ingrediente>Salsa de tomàquet</ingrediente>
+            <ingrediente>Formatge mozzarella</ingrediente>
+            <ingrediente>Verdures al gust</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="15 minuts" coccion="20 minuts" />
+        <pasos>
+            <paso>Estira la massa de pizza.</paso>
+            <paso>Afegeix salsa, formatge i verdures.</paso>
+            <paso>Enforna fins que estigui daurada.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Sopa miso</titulo>
+        <imagen>imatges/sopa_miso.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Pasta miso</ingrediente>
+            <ingrediente>Tofu</ingrediente>
+            <ingrediente>Algues wakame</ingrediente>
+            <ingrediente>Ceba tendra</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="5 minuts" coccion="10 minuts" />
+        <pasos>
+            <paso>Dissol la pasta miso en aigua calenta.</paso>
+            <paso>Afegeix tofu, algues i ceba tendra.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Pastís de formatge</titulo>
+        <imagen>imatges/pastis_formatge.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Formatge crema</ingrediente>
+            <ingrediente>Galetes digestive</ingrediente>
+            <ingrediente>Sucre</ingrediente>
+            <ingrediente>Nata líquida</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="20 minuts" coccion="1 hora" />
+        <pasos>
+            <paso>Tritura les galetes i barreja amb mantega.</paso>
+            <paso>Barreja el formatge crema amb nata i sucre.</paso>
+            <paso>Enforna a baixa temperatura.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Fajitas mexicanes</titulo>
+        <imagen>imatges/fajitas_mexicanes.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Truites de blat</ingrediente>
+            <ingrediente>Pollastre</ingrediente>
+            <ingrediente>Pebrots</ingrediente>
+            <ingrediente>Ceba</ingrediente>
+            <ingrediente>Espècies mexicanes</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="10 minuts" coccion="20 minuts" />
+        <pasos>
+            <paso>Salteja el pollastre amb pebrots i ceba.</paso>
+            <paso>Omple les truites amb el farcit.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Hummus de remolatxa</titulo>
+        <imagen>imatges/hummus_remolatxa.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Remolatxa</ingrediente>
+            <ingrediente>Cigrons</ingrediente>
+            <ingrediente>Tahina</ingrediente>
+            <ingrediente>Suc de llimona</ingrediente>
+            <ingrediente>Oli d'oliva</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="15 minuts" />
+        <pasos>
+            <paso>Tritura tots els ingredients fins a obtenir una textura suau.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Hamburguesa vegana</titulo>
+        <imagen>imatges/hamburguesa_vegana.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Mongetes negres</ingrediente>
+            <ingrediente>Civada</ingrediente>
+            <ingrediente>Espècies</ingrediente>
+            <ingrediente>Pa per a hamburgueses</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="20 minuts" coccion="15 minuts" />
+        <pasos>
+            <paso>Barreja els ingredients i forma hamburgueses.</paso>
+            <paso>Cou a la planxa i serveix amb pa.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Truita de patates</titulo>
+        <imagen>imatges/truita_patates.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Patates</ingrediente>
+            <ingrediente>Ous</ingrediente>
+            <ingrediente>Ceba</ingrediente>
+            <ingrediente>Oli d'oliva</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="15 minuts" coccion="25 minuts" />
+        <pasos>
+            <paso>Fes les patates fregides amb ceba.</paso>
+            <paso>Barreja amb ous i cuina en una paella.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Macarrons amb tomàquet</titulo>
+        <imagen>imatges/macarrons_tomaquet.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Macarrons</ingrediente>
+            <ingrediente>Salsa de tomàquet</ingrediente>
+            <ingrediente>All</ingrediente>
+            <ingrediente>Herbes fresques</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="5 minuts" coccion="15 minuts" />
+        <pasos>
+            <paso>Bull els macarrons.</paso>
+            <paso>Barreja amb salsa i serveix amb herbes.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Paella de marisc</titulo>
+        <imagen>imatges/paella_marisc.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Arròs</ingrediente>
+            <ingrediente>Marisc</ingrediente>
+            <ingrediente>Safrà</ingrediente>
+            <ingrediente>Pebrots</ingrediente>
+            <ingrediente>Brou de peix</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="15 minuts" coccion="1 hora" />
+        <pasos>
+            <paso>Cuina el marisc i afegeix arròs.</paso>
+            <paso>Afegeix brou i deixa coure fins que s'absorbeixi.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Tàrtar de salmó</titulo>
+        <imagen>imatges/tartar_salmó.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Salmó fresc</ingrediente>
+            <ingrediente>Alvocat</ingrediente>
+            <ingrediente>Suc de llimona</ingrediente>
+            <ingrediente>Salsa de soja</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="10 minuts" />
+        <pasos>
+            <paso>Talla el salmó i l'alvocat.</paso>
+            <paso>Barreja amb suc de llimona i soja.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Gelat de mango</titulo>
+        <imagen>imatges/gelat_mango.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Mango congelat</ingrediente>
+            <ingrediente>Iogurt natural</ingrediente>
+            <ingrediente>Mel</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="5 minuts" />
+        <pasos>
+            <paso>Tritura els ingredients fins obtenir una textura cremosa.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Pancakes vegans</titulo>
+        <imagen>imatges/pancakes_vegans.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Farina</ingrediente>
+            <ingrediente>Llet vegetal</ingrediente>
+            <ingrediente>Plàtans</ingrediente>
+            <ingrediente>Xarop d'auró</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="5 minuts" coccion="10 minuts" />
+        <pasos>
+            <paso>Barreja els ingredients.</paso>
+            <paso>Cuina en una paella fins que estiguin daurats.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Quiche de verdures</titulo>
+        <imagen>imatges/quiche_verdures.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Base de quiche</ingrediente>
+            <ingrediente>Verdures variades</ingrediente>
+            <ingrediente>Ous</ingrediente>
+            <ingrediente>Nata</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="20 minuts" coccion="30 minuts" />
+        <pasos>
+            <paso>Col·loca les verdures i la mescla d'ous en la base.</paso>
+            <paso>Enforna fins que estigui cuit.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Smoothie bowl</titulo>
+        <imagen>imatges/smoothie_bowl.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Fruita congelada</ingrediente>
+            <ingrediente>Llet vegetal</ingrediente>
+            <ingrediente>Granola</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="5 minuts" />
+        <pasos>
+            <paso>Tritura la fruita amb la llet i afegeix toppings.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Tiramisú vegà</titulo>
+        <imagen>imatges/tiramisu_vega.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Cafè</ingrediente>
+            <ingrediente>Galetes veganes</ingrediente>
+            <ingrediente>Crema de coco</ingrediente>
+            <ingrediente>Cacau en pols</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="15 minuts" />
+        <pasos>
+            <paso>Mulla les galetes amb cafè.</paso>
+            <paso>Munta capes amb crema de coco i cacau.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Cuscús de verdures</titulo>
+        <imagen>imatges/cuscus_verdures.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Cuscús</ingrediente>
+            <ingrediente>Verdures variades</ingrediente>
+            <ingrediente>Espècies</ingrediente>
+            <ingrediente>Brou vegetal</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="10 minuts" coccion="10 minuts" />
+        <pasos>
+            <paso>Prepara el cuscús amb brou.</paso>
+            <paso>Salteja les verdures i barreja.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Pollastre al forn</titulo>
+        <imagen>imatges/pollastre_forn.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Pollastre</ingrediente>
+            <ingrediente>Espècies</ingrediente>
+            <ingrediente>Oli d'oliva</ingrediente>
+            <ingrediente>Patates</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="15 minuts" coccion="1 hora" />
+        <pasos>
+            <paso>Marina el pollastre amb espècies.</paso>
+            <paso>Enforna amb patates.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Amanida Cèsar</titulo>
+        <imagen>imatges/amanida_cesar.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Enciam</ingrediente>
+            <ingrediente>Pollastre</ingrediente>
+            <ingrediente>Crostons</ingrediente>
+            <ingrediente>Salsa Cèsar</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="10 minuts" />
+        <pasos>
+            <paso>Barreja tots els ingredients i serveix amb salsa.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Raviolis casolans</titulo>
+        <imagen>imatges/raviolis_casolans.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Massa de pasta</ingrediente>
+            <ingrediente>Ricotta</ingrediente>
+            <ingrediente>Espinacs</ingrediente>
+            <ingrediente>Salsa de tomàquet</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="30 minuts" coccion="20 minuts" />
+        <pasos>
+            <paso>Omple la massa amb ricotta i espinacs.</paso>
+            <paso>Cou els raviolis i serveix amb salsa.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Croquetes de bolets</titulo>
+        <imagen>imatges/croquetes_bolets.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Bolets</ingrediente>
+            <ingrediente>Farina</ingrediente>
+            <ingrediente>Llet</ingrediente>
+            <ingrediente>Pa ratllat</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="20 minuts" coccion="30 minuts" />
+        <pasos>
+            <paso>Prepara una beixamel amb bolets.</paso>
+            <paso>Forma les croquetes i fregeix.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Risotto de bolets</titulo>
+        <imagen>imatges/risotto_bolets.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Arròs arbori</ingrediente>
+            <ingrediente>Bolets</ingrediente>
+            <ingrediente>Parmesà</ingrediente>
+            <ingrediente>Brou de verdures</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="15 minuts" coccion="30 minuts" />
+        <pasos>
+            <paso>Salteja els bolets i afegeix l'arròs.</paso>
+            <paso>Cuina amb brou fins que estigui cremos.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Curry de llenties</titulo>
+        <imagen>imatges/curry_llenties.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Llenties</ingrediente>
+            <ingrediente>Tomàquet</ingrediente>
+            <ingrediente>Llet de coco</ingrediente>
+            <ingrediente>Espècies</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="10 minuts" coccion="30 minuts" />
+        <pasos>
+            <paso>Cuina les llenties amb espècies.</paso>
+            <paso>Afegeix llet de coco i tomàquet.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Galetes de civada</titulo>
+        <imagen>imatges/galetes_civada.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Civada</ingrediente>
+            <ingrediente>Plàtan</ingrediente>
+            <ingrediente>Mel</ingrediente>
+            <ingrediente>Xocolata negra</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="10 minuts" coccion="15 minuts" />
+        <pasos>
+            <paso>Barreja els ingredients.</paso>
+            <paso>Forma galetes i enforna.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Pastís de pastanaga</titulo>
+        <imagen>imatges/pastis_pastanaga.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Pastanaga ratllada</ingrediente>
+            <ingrediente>Farina</ingrediente>
+            <ingrediente>Ous</ingrediente>
+            <ingrediente>Canyella</ingrediente>
+            <ingrediente>Nous</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="20 minuts" coccion="40 minuts" />
+        <pasos>
+            <paso>Barreja tots els ingredients.</paso>
+            <paso>Enforna fins que estigui cuit.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Gelat de vainilla amb xocolata</titulo>
+        <imagen>imatges/gelat_vainilla.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Gelat de vainilla</ingrediente>
+            <ingrediente>Xocolata negra</ingrediente>
+            <ingrediente>Ametlles picades</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="5 minuts" />
+        <pasos>
+            <paso>Serveix el gelat i cobreix amb xocolata desfeta.</paso>
+            <paso>Decora amb ametlles picades.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Tàrtar de tonyina</titulo>
+        <imagen>imatges/tartar_tonyina.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Tonyina fresca</ingrediente>
+            <ingrediente>Alvocat</ingrediente>
+            <ingrediente>Salsa de soja</ingrediente>
+            <ingrediente>Suc de llimona</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="10 minuts" />
+        <pasos>
+            <paso>Talla la tonyina i l'alvocat en daus.</paso>
+            <paso>Barreja amb soja i suc de llimona.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Espaguetis al pesto</titulo>
+        <imagen>imatges/espaguetis_pesto.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Espaguetis</ingrediente>
+            <ingrediente>Alfàbrega</ingrediente>
+            <ingrediente>All</ingrediente>
+            <ingrediente>Parmesà</ingrediente>
+            <ingrediente>Oli d'oliva</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="15 minuts" coccion="10 minuts" />
+        <pasos>
+            <paso>Bull els espaguetis.</paso>
+            <paso>Prepara la salsa pesto triturant alfàbrega, all, parmesà i oli d'oliva.</paso>
+            <paso>Barreja els espaguetis amb la salsa.</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <titulo>Salmorejo</titulo>
+        <imagen>imatges/salmorejo.jpg</imagen>
+        <ingredientes>
+            <ingrediente>Tomàquets</ingrediente>
+            <ingrediente>Pa dur</ingrediente>
+            <ingrediente>All</ingrediente>
+            <ingrediente>Oli d'oliva</ingrediente>
+            <ingrediente>Pernil picat</ingrediente>
+            <ingrediente>Ou dur</ingrediente>
+        </ingredientes>
+        <tiempo preparacion="15 minuts" />
+        <pasos>
+            <paso>Tritura els tomàquets, el pa, l'all i l'oli d'oliva.</paso>
+            <paso>Serveix amb pernil i ou dur com a guarnició.</paso>
+        </pasos>
+    </receta>
+</recetas>
