@@ -20,6 +20,7 @@
                 <li><a href="listado.html">Recetas</a></li>
                 <li><a href="formulario.html">Contacto</a></li>
                 <li><a href="otras_cosas.html">Otras cosas</a></li>
+                <li>(Roger Domingo i Pol Danés)</li>
             </ul>
         </nav>
         <br>
@@ -39,96 +40,52 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td><a href="receptes/recepta1.html">Risotto de carbassa</a></td>
-                        <td>45 minuts</td>
-                        <td>Fàcil</td>
-                        <td><a href="receptes/recepta1.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta2.html">Lasanya vegana</a></td>
-                        <td>1 hora</td>
-                        <td>Intermedi</td>
-                        <td><a href="receptes/recepta2.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta3.html">Brownie de moniato</a></td>
-                        <td>50 minuts</td>
-                        <td>Fàcil</td>
-                        <td><a href="receptes/recepta3.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta4.html">Pa de plàtan</a></td>
-                        <td>1 hora</td>
-                        <td>Fàcil</td>
-                        <td><a href="receptes/recepta4.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta5.html">Crema de carabassó</a></td>
-                        <td>30 minuts</td>
-                        <td>Fàcil</td>
-                        <td><a href="receptes/recepta5.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta6.html">Espaguetis carbonara vegans</a></td>
-                        <td>40 minuts</td>
-                        <td>Intermedi</td>
-                        <td><a href="receptes/recepta6.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta7.html">Pizza casolana</a></td>
-                        <td>1 hora</td>
-                        <td>Intermedi</td>
-                        <td><a href="receptes/recepta7.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta8.html">Sopa miso</a></td>
-                        <td>20 minuts</td>
-                        <td>Fàcil</td>
-                        <td><a href="receptes/recepta8.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta9.html">Pastís de formatge</a></td>
-                        <td>1 hora i 30 minuts</td>
-                        <td>Difícil</td>
-                        <td><a href="receptes/recepta9.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta10.html">Fajitas mexicanes</a></td>
-                        <td>30 minuts</td>
-                        <td>Fàcil</td>
-                        <td><a href="receptes/recepta10.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta11.html">Hummus de remolatxa</a></td>
-                        <td>15 minuts</td>
-                        <td>Fàcil</td>
-                        <td><a href="receptes/recepta11.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta12.html">Hamburguesa vegana</a></td>
-                        <td>45 minuts</td>
-                        <td>Intermedi</td>
-                        <td><a href="receptes/recepta12.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta13.html">Truita de patates</a></td>
-                        <td>40 minuts</td>
-                        <td>Fàcil</td>
-                        <td><a href="receptes/recepta13.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta14.html">Macarrons amb tomàquet</a></td>
-                        <td>25 minuts</td>
-                        <td>Fàcil</td>
-                        <td><a href="receptes/recepta14.html">Veure recepta</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="receptes/recepta15.html">Paella de marisc</a></td>
-                        <td>1 hora i 20 minuts</td>
-                        <td>Difícil</td>
-                        <td><a href="receptes/recepta15.html">Veure recepta</a></td>
-                    </tr>
+                    <!-- Generació dinàmica per les 30 receptes -->
+                    <script>
+                        const receptes = [
+                            { titol: "Risotto de carbassa", temps: "45 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_1_Risotto_de_carbassa.html" },
+                            { titol: "Espaguetis carbonara vegans", temps: "40 minuts", dificultat: "Intermedi", enllac: "receptes/receptes_2_Espaguetis_carbonara_vegans.html" },
+                            { titol: "Pizza casolana", temps: "1 hora", dificultat: "Intermedi", enllac: "receptes/receptes_3_Pizza_casolana.html" },
+                            { titol: "Sopa miso", temps: "20 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_4_Sopa_miso.html" },
+                            { titol: "Pastís de formatge", temps: "1 hora i 30 minuts", dificultat: "Difícil", enllac: "receptes/receptes_5_Pastís_de_formatge.html" },
+                            { titol: "Fajitas mexicanes", temps: "30 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_6_Fajitas_mexicanes.html" },
+                            { titol: "Hummus de remolatxa", temps: "15 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_7_Hummus_de_remolatxa.html" },
+                            { titol: "Hamburguesa vegana", temps: "45 minuts", dificultat: "Intermedi", enllac: "receptes/receptes_8_Hamburguesa_vegana.html" },
+                            { titol: "Truita de patates", temps: "40 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_9_Truita_de_patates.html" },
+                            { titol: "Macarrons amb tomàquet", temps: "25 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_10_Macarrons_amb_tomàquet.html" },
+                            { titol: "Paella de marisc", temps: "1 hora i 20 minuts", dificultat: "Difícil", enllac: "receptes/receptes_11_Paella_de_marisc.html" },
+                            { titol: "Tàrtar de salmó", temps: "20 minuts", dificultat: "Intermedi", enllac: "receptes/receptes_12_Tàrtar_de_salmó.html" },
+                            { titol: "Gelat de mango", temps: "10 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_13_Gelat_de_mango.html" },
+                            { titol: "Pancakes vegans", temps: "30 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_14_Pancakes_vegans.html" },
+                            { titol: "Quiche de verdures", temps: "50 minuts", dificultat: "Intermedi", enllac: "receptes/receptes_15_Quiche_de_verdures.html" },
+                            { titol: "Smoothie bowl", temps: "15 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_16_Smoothie_bowl.html" },
+                            { titol: "Tiramisú vegà", temps: "1 hora", dificultat: "Intermedi", enllac: "receptes/receptes_17_Tiramisú_vegà.html" },
+                            { titol: "Cuscús de verdures", temps: "25 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_18_Cuscus_de_verdures.html" },
+                            { titol: "Pollastre al forn", temps: "1 hora i 15 minuts", dificultat: "Difícil", enllac: "receptes/receptes_19_Pollastre_al_forn.html" },
+                            { titol: "Amanida Cèsar", temps: "20 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_20_Amanida_Cèsar.html" },
+                            { titol: "Raviolis casolans", temps: "1 hora i 10 minuts", dificultat: "Difícil", enllac: "receptes/receptes_21_Raviolis_casolans.html" },
+                            { titol: "Croquetes de bolets", temps: "50 minuts", dificultat: "Intermedi", enllac: "receptes/receptes_22_Croquetes_de_bolets.html" },
+                            { titol: "Risotto de bolets", temps: "45 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_23_Risotto_de_bolets.html" },
+                            { titol: "Curry de llenties", temps: "40 minuts", dificultat: "Intermedi", enllac: "receptes/receptes_24_Curry_de_llenties.html" },
+                            { titol: "Galetes de civada", temps: "30 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_25_Galetes_de_civada.html" },
+                            { titol: "Pastís de pastanaga", temps: "1 hora", dificultat: "Intermedi", enllac: "receptes/receptes_26_Pastís_de_pastanaga.html" },
+                            { titol: "Gelat de vainilla amb xocolata", temps: "5 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_27_Gelat_de_vainilla_amb_xocolata.html" },
+                            { titol: "Tàrtar de tonyina", temps: "10 minuts", dificultat: "Intermedi", enllac: "receptes/receptes_28_Tàrtar_de_tonyina.html" },
+                            { titol: "Espaguetis al pesto", temps: "15 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_29_Espaguetis_al_pesto.html" },
+                            { titol: "Salmorejo", temps: "15 minuts", dificultat: "Fàcil", enllac: "receptes/receptes_30_Salmorejo.html" }
+                        ];
+
+                        receptes.forEach((recepta, index) => {
+                            document.write(`
+                                <tr>
+                                    <td><a href="${recepta.enllac}">${recepta.titol}</a></td>
+                                    <td>${recepta.temps}</td>
+                                    <td>${recepta.dificultat}</td>
+                                    <td><a href="${recepta.enllac}">Veure recepta</a></td>
+                                </tr>
+                            `);
+                        });
+                    </script>
                 </tbody>
             </table>
         </section>
@@ -145,7 +102,7 @@
 
     <!-- Peu de pàgina -->
     <footer>
-        <p>FACEBOOK | TWITTER | INSTAGRAM | PINTEREST | EMAIL | RSS</p>
+        <p>FACEBOOK | TWITTER | INSTAGRAM | PINTEREST | EMAIL | RSS | RogerDomingo PolDanés</p>
     </footer>
 </body>
 </html>
